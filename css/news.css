@@ -1,0 +1,25 @@
+.conteiner{
+	display: inline-block;
+	margin: 1rem;
+}
+.conteiner>div{
+	display: inline-block;
+}
+
+.conteiner>div>a>img{
+	border-radius: 10px;
+	box-shadow: 0 0 10px #444;
+	margin: 10px;
+	width: 300px;
+}
+
+.conteiner>div>a>p{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.conteiner>div>a>p>b{
+	color: rgb(170, 134, 86);
+}
+
