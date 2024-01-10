@@ -175,3 +175,8 @@ body{
     margin: 10px; /* Добавьте небольшой отступ между изображениями */
   }
 }
+@media (max-width:374px) {
+	.flags>p{
+		font-size: 12px;
+	}
+}
