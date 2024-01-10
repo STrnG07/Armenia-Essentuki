@@ -127,3 +127,51 @@ body{
 #marg{
 	margin-left: 200px;
 }
+
+@media (max-width: 768px) {
+	.header {
+		flex-direction: column;
+		align-items: center;
+	}
+	.imgLogo {
+		margin-bottom: 10px;
+	}
+	.phone-text,
+	.mail-text {
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+	.flags {
+		text-align: center;
+	}
+	.flags > p {
+		font-size: 30px;
+	}
+	.main {
+		flex-direction: column;
+	}
+	.main > img {
+		width: 80%;
+		margin-left: 0;
+		margin-top: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.flags>p{
+		font-size: 16px;
+	}
+
+	#marg{
+		margin-left: 50px;
+	}
+
+  .flags {
+    display: flex;
+    justify-content: center;
+  }
+  .flags > img {
+		
+    margin: 10px; /* Добавьте небольшой отступ между изображениями */
+  }
+}
