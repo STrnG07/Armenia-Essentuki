@@ -159,7 +159,12 @@ body{
 
 @media (max-width: 768px) {
 	.flags>p{
-		font-size: 16px;
+		font-size: 12px;
+		margin-left: 5px;
+	}
+
+	#marg{
+		margin-left: 50px;
 	}
 
   .flags {
@@ -168,7 +173,7 @@ body{
   }
   .flags > img {
 		width: 50px;
-		height: 40px;
-    margin: 5px; /* Добавьте небольшой отступ между изображениями */
+		height: 30px;
+    margin: 10px; /* Добавьте небольшой отступ между изображениями */
   }
 }
