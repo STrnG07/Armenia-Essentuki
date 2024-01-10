@@ -162,21 +162,22 @@ body{
 		font-size: 16px;
 	}
 
-	#marg{
-		margin-left: 50px;
-	}
-
   .flags {
     display: flex;
     justify-content: center;
   }
   .flags > img {
-		
-    margin: 10px; /* Добавьте небольшой отступ между изображениями */
+		width: 50px;
+		height: 40px;
+    margin: 5px; /* Добавьте небольшой отступ между изображениями */
   }
 }
-@media (max-width:374px) {
+
+@media (max-width: 374px) {
 	.flags>p{
 		font-size: 12px;
+	}
+	#marg{
+		margin-left: 20px;
 	}
 }
